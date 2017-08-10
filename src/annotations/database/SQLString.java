@@ -9,6 +9,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface SQLString {
     int value() default 0;
-    String name() default " ";
+    String name() default "";
     Constrains constrains() default @Constrains;
 }
