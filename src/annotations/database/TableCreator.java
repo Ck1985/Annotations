@@ -51,7 +51,6 @@ public class TableCreator {
                 }
                 StringBuilder createCommand = new StringBuilder(
                         "CREATE TABLE " + tableName + "("
-
                 );
                 for (String columnDef : columnDefs) {
                     createCommand.append("\n      " + columnDef + ",");
