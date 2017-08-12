@@ -8,5 +8,6 @@ import java.io.*;
 /**
  * Created by anonymous.vn1985@gmail.com
  */
-public class InterfaceExtractorProcessor implements AnnotationProcessor {
-}
+/*public class InterfaceExtractorProcessor implements AnnotationProcessor {
+    private
+}*/
